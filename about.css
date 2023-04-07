@@ -1,0 +1,132 @@
+/* Form wrapper */
+.about-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+/* Form heading */
+.about-form-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Form labels */
+.about-form-label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Form input fields */
+.about-form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Form textarea */
+.about-form-textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+/* Form submit button */
+.about-form-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.about-form-button:hover {
+  background-color: #0062cc;
+}
+
+/* Page wrapper */
+.about-page {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+/* Page heading */
+.about-heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* Section headings */
+.about-section-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+/* Paragraphs */
+.about-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Image */
+.about-image {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+/* List */
+.about-list {
+  margin-bottom: 30px;
+}
+
+.about-list li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Call to action button */
+.about-cta {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.about-cta:hover {
+  background-color: #0062cc;
+}
+

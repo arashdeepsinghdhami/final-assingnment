@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About Us - Mobile Phones</title>
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="product.css">
+</head>
+
+<body>
+  <form id="ordered_confirmed_info" action="process.php" method="get">
+  </form>
+  <header>
+    <div class="container">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="product.html">Products</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <h1>About Us</h1>
+      <p>Welcome to our mobile selling webpage! We are a team of passionate mobile enthusiasts who are dedicated to
+        providing the latest and greatest mobile devices to our customers.</br></br>
+
+        Our company was founded by a group of friends who shared a common love for technology and mobile devices. We
+        started out small, selling phones to friends and family, but quickly grew to become a leading mobile seller in
+        the industry.</br></br>
+
+        At our core, we are committed to delivering exceptional customer service, providing expert advice, and offering
+        the best deals on the market. We believe that every customer deserves personalized attention and a stress-free
+        shopping experience.</br></br>
+
+        Our team is made up of tech-savvy experts who stay up-to-date on the latest mobile trends and innovations. We
+        are passionate about mobile devices and love sharing our knowledge with our customers.</br></br>
+
+        We take pride in our reputation for delivering high-quality products and services to our customers. Our
+        commitment to excellence has earned us numerous awards and recognition within the mobile industry.</br>
+        </br>
+        At our mobile selling webpage, we understand that buying a mobile device can be a big decision. That's why we
+        are here to guide you every step of the way. We are confident that you will love our selection of mobile
+        devices, our competitive prices, and our exceptional customer service.</br></br>
+
+        Thank you for choosing us as your go-to mobile seller. We look forward to serving you and helping you find the
+        perfect mobile device to meet your needs.</br>
+
+
+
+      </p>
+    </div>
+  </main>
+  <hr />
+  <footer>
+    <div class="container">
+      <div class="footer-left">
+        <h3>Mobile Phones</h3>
+        <p>you can provide you some personal details here for some conformation.</p>
+      </div>
+      <div class="footer-right">
+
+        <form class="about-form" method="POST" action="process.php">
+          <h2 class="about-form-heading">Contact Us</h2>
+          <label class="about-form-label" for="name">Name</label>
+          <input class="about-form-input" type="text" id="name" name="name" required>
+
+          <label class="about-form-label" for="email">Email</label>
+          <input class="about-form-input" type="email" id="email" name="email" required>
+
+          <label class="about-form-label" for="message">Message</label>
+          <textarea class="about-form-textarea" id="message" name="message" rows="5" required></textarea>
+
+          <button class="about-form-button" type="submit">Submit</button>
+        </form>
+      
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
